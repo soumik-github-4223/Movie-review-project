@@ -1,0 +1,285 @@
+<!--First project of my web development journey with only using HTML-->
+<!DOCTYPE html>
+
+<head>
+    <title>Movie review page</title>
+</head>
+
+<body>
+    <h1 id="top"> -------------------------THE LATEST MOVIES ARE LISTED BELOW------------------------- </h1>
+    <hr />
+    <!--First movie-->
+    <dl>
+        <dt>
+            <h2>A. JAWAN </h2>
+            <p><b>Poster:</b>
+                <img src="Images/jawan poster (1).jpg" align="top" width="250" height="250" alt="Poster of JAWAN movie"
+                    title="Poster of Jawan movie" />
+            </p>
+        <dd>
+            <ul type="circle">
+                <li><b>Director:</b> Atlee</li>
+                <li><b>Top casts:</b> Shah Rukh Khan , Nayanthara , Vijay Sethupathi , Deepika Padukone , Priyamani
+                    and
+                    <a href="https://www.imdb.com/title/tt15354916/fullcredits/?ref_=tt_cl_sm" target="_blank"><abbr
+                            title="To see full cast click here">much more..</abbr></a>
+                </li>
+                <li>
+                    <h3>Trailer of the movie: </h3>
+                </li>
+                <br />
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/MWOlnZSnXJo?si=glX-yLLN8wQ4MS_I"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </ul>
+        </dd>
+        </dt>
+    </dl>
+    <form action="1.html" method="get">
+        <fieldset>
+            <legend> Let's review it</legend>
+            I will give my honest review here:
+            <input id="yes1" type="radio" name="honesty1" value="y1">
+            <label for="yes1">YES</label>
+            <input id="no1" type="radio" name="honesty1" value="n1">
+            <label for="no1">NO</label>
+            <br /><br />
+            Date of your review: <input type="date" name="date1" required="required" />
+            <br /><br />
+            Rating:
+            <input id="i1" type="radio" name="irating" value="i1">
+            <label for="i1">1⭐</label>
+            <input id="i2" type="radio" name="irating" value="i2">
+            <label for="i2">2⭐</label>
+            <input id="i3" type="radio" name="irating" value="i3">
+            <label for="i3">3⭐</label>
+            <input id="i4" type="radio" name="irating" value="i4">
+            <label for="i4">4⭐</label>
+            <input id="i5" type="radio" name="irating" value="i5">
+            <label for="i5">5⭐</label>
+            <br /><br />
+            Suitable for:
+            <select name="1age">
+                <option value="Kids1">Kids</option>
+                <option value="Adults1">Adults</option>
+                <option value="all1">For all ages</option>
+            </select>
+            <br /><br />
+            The movie involves:
+            <input id="d1" type="checkbox" name="type1" value="d1" />
+            <label for="d1">Drama</label>
+            <input id="a1" type="checkbox" name="type1" value="a1" />
+            <label for="a1">Action</label>
+            <input id="t1" type="checkbox" name="type1" value="t1" />
+            <label for="t1">Thriller</label>
+            <input id="h1" type="checkbox" name="type1" value="h1" />
+            <label for="h1">Horror</label>
+            <input id="m1" type="checkbox" name="type1" value="m1" />
+            <label for="m1">Mystry</label>
+            <input id="c1" type="checkbox" name="type1" value="c1" />
+            <label for="c1">Crime</label>
+            <input id="r1" type="checkbox" name="type1" value="r1" />
+            <label for="r1">Romance</label>
+            <input id="do1" type="checkbox" name="type1" value="do1" />
+            <label for="do1">Documentry</label>
+            <input id="hi1" type="checkbox" name="type1" value="h1" />
+            <label for="hi1">Historical</label>
+            <!-- The movie involves: (use control key to select more than one options)<br />
+            <select name="type" size="3" multiple="multiple">
+                <option value="drama">Drama</option>
+                <option value="action">Action</option>
+                <option value="thriller">Thriller</option>
+                <option value="horror">Horror</option>
+                <option value="mystry">Mystry</option>
+                <option value="crime">Crime</option>
+                <option value="romance">Romance</option>
+                <option value="documentry">Documentry</option>
+                <option value="historical">Historical</option>
+            </select> -->
+            <br /><br />
+            <textarea name="comments1" cols="50" rows="5"
+                placeholder="Enter your thoughts about this movie...(optional)"></textarea>
+        </fieldset>
+    </form>
+    <!--Second movie-->
+    <dl>
+        <dt>
+            <h2>B. 12TH FAIL </h2>
+            <p><b>Poster:</b>
+                <img src="Images/12th fail poster (1).jpg" align="top" width="250" height="250"
+                    alt="Poster of 12TH FAIL movie" title="Poster of 12th Fail movie" />
+            </p>
+        <dd>
+            <ul type="circle">
+                <li><b>Director:</b> Vidhu Vinod Chopra </li>
+                <li><b>Top casts:</b> Vikrant Massey , Medha Shankar , Anant V Joshi , Anshumaan Pushkar , Priyanshu
+                    Chatterjee
+                    and
+                    <a href="https://www.imdb.com/title/tt23849204/fullcredits" target="_blank"><abbr
+                            title="To see full cast click here">much more..</abbr></a>
+                </li>
+                <li>
+                    <h3>Trailer of the movie: </h3>
+                </li>
+                <br />
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/afEJYg0tyJ4?si=wD92FVMMyPqNKuJl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </ul>
+        </dd>
+        </dt>
+    </dl>
+    <form action="1.html" method="get">
+        <fieldset>
+            <legend> Let's review it</legend>
+            I will give my honest review here:
+            <input id="yes2" type="radio" name="honesty2" value="y2">
+            <label for="yes2">YES</label>
+            <input id="no2" type="radio" name="honesty2" value="n2">
+            <label for="no2">NO</label>
+            <br /><br />
+            Date of your review: <input type="date" name="date2" required="required" />
+            <br /><br />
+            Rating:
+            <input id="ii1" type="radio" name="ratingii" value="1ii">
+            <label for="ii1">1⭐</label>
+            <input id="ii2" type="radio" name="ratingii" value="2ii">
+            <label for="ii2">2⭐</label>
+            <input id="ii3" type="radio" name="ratingii" value="3ii">
+            <label for="ii3">3⭐</label>
+            <input id="ii4" type="radio" name="ratingii" value="4ii">
+            <label for="ii4">4⭐</label>
+            <input id="ii5" type="radio" name="ratingii" value="5ii">
+            <label for="ii5">5⭐</label>
+            <br /><br />
+            Suitable for:
+            <select name="age2">
+                <option value="Kids2">Kids</option>
+                <option value="Adults2">Adults</option>
+                <option value="all2">For all ages</option>
+            </select>
+            <br /><br />
+            The movie involves:
+            <input id="d2" type="checkbox" name="type2" value="d2" />
+            <label for="d2">Drama</label>
+            <input id="a2" type="checkbox" name="type2" value="a2" />
+            <label for="a2">Action</label>
+            <input id="t2" type="checkbox" name="type2" value="t2" />
+            <label for="t2">Thriller</label>
+            <input id="h2" type="checkbox" name="type2" value="h2" />
+            <label for="h2">Horror</label>
+            <input id="m2" type="checkbox" name="type2" value="m2" />
+            <label for="m2">Mystry</label>
+            <input id="c2" type="checkbox" name="type2" value="c2" />
+            <label for="c2">Crime</label>
+            <input id="r2" type="checkbox" name="type2" value="r2" />
+            <label for="r2">Romance</label>
+            <input id="do2" type="checkbox" name="type2" value="do2" />
+            <label for="do2">Documentry</label>
+            <input id="hi2" type="checkbox" name="type2" value="h2" />
+            <label for="hi2">Historical</label>
+            <br /><br />
+            <textarea name="comments2" cols="50" rows="5"
+                placeholder="Enter your thoughts about this movie...(optional)"></textarea>
+        </fieldset>
+    </form>
+    <!--Third movie-->
+    <dl>
+        <dt>
+            <h2>C. DUNKI </h2>
+            <p><b>Poster:</b>
+                <img src="Images/Dunki poster (1).jpg" align="top" width="250" height="250" alt="Poster of DUNKI movie"
+                    title="Poster of Dunki movie" />
+            </p>
+        <dd>
+            <ul type="circle">
+                <li><b>Director:</b> Atlee</li>
+                <li><b>Top casts:</b> Shah Rukh Khan , Taapsee Pannu , Vicky Kaushal , Boman Irani , Vikram Kochhar
+                    and
+                    <a href="https://www.imdb.com/title/tt15428134/fullcredits" target="_blank"><abbr
+                            title="To see full cast click here">much more..</abbr></a>
+                </li>
+                <li>
+                    <h3>Trailer of the movie: </h3>
+                </li>
+                <br />
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/uOlDK7g7b-E?si=7pQmYUiN5p6dSMcs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </ul>
+        </dd>
+        </dt>
+    </dl>
+    <form action="3_3.html" method="get">
+        <fieldset>
+            <legend> Let's review it</legend>
+            I will give my honest review here:
+            <input id="yes3" type="radio" name="honesty3" value="y3">
+            <label for="yes3">YES</label>
+            <input id="no3" type="radio" name="honesty3" value="n3">
+            <label for="no3">NO</label>
+            <br /><br />
+            Date of your review: <input type="date" name="date3" required="required" />
+            <br /><br />
+            Rating:
+            <input id="1iii" type="radio" name="rating3" value="1iii">
+            <label for="1iii">1⭐</label>
+            <input id="2iii" type="radio" name="rating3" value="2iii">
+            <label for="2iii">2⭐</label>
+            <input id="3iii" type="radio" name="rating3" value="3iii">
+            <label for="3iii">3⭐</label>
+            <input id="4iii" type="radio" name="rating3" value="4iii">
+            <label for="4iii">4⭐</label>
+            <input id="5iii" type="radio" name="rating3" value="5iii">
+            <label for="5iii">5⭐</label>
+            <br /><br />
+            Suitable for:
+            <select name="age3">
+                <option value="Kids3">Kids</option>
+                <option value="Adults3">Adults</option>
+                <option value="all3">For all ages</option>
+            </select>
+            <br /><br />
+            The movie involves:
+            <input id="d3" type="checkbox" name="type3" value="d3" />
+            <label for="d3">Drama</label>
+            <input id="a3" type="checkbox" name="type3" value="a3" />
+            <label for="a3">Action</label>
+            <input id="t3" type="checkbox" name="type3" value="t3" />
+            <label for="t3">Thriller</label>
+            <input id="h3" type="checkbox" name="type3" value="h3" />
+            <label for="h3">Horror</label>
+            <input id="m3" type="checkbox" name="type3" value="m3" />
+            <label for="m3">Mystry</label>
+            <input id="c3" type="checkbox" name="type3" value="c3" />
+            <label for="c3">Crime</label>
+            <input id="r3" type="checkbox" name="type3" value="r3" />
+            <label for="r3">Romance</label>
+            <input id="do3" type="checkbox" name="type3" value="do3" />
+            <label for="do3">Documentry</label>
+            <input id="hi3" type="checkbox" name="type3" value="h3" />
+            <label for="hi3">Historical</label>
+            <br /><br />
+            <textarea name="comments3" cols="50" rows="5"
+                placeholder="Enter your thoughts about this movie...(optional)"></textarea>
+        </fieldset>
+        <br /><br />
+        <hr />
+        <p>__Listen to the audio before submit__</p>
+        <audio controls autoplay>
+            <source src="Audio/Recording (2).mp3" />
+            <source src="Audio/Recording-_2_ogg.ogg" />
+            <p>This browser does not support our audio
+                format.</p>
+        </audio>
+        <br/>
+        <a href="#top">Go to the top of the page</a>
+        <h2>Had a full view of the website ? ......Then click below </h2>
+        <button><img src="Images/submit button2.jpg" alt="Submit button" /> </button>
+    </form>
+</body>
+
+</html>
